@@ -50,6 +50,7 @@ a:hover, a:visited, a:link, a:active {
   display: flex;
   flex-direction: row;
   opacity: 0.5;
+  margin-bottom: 10px;
 }
 
 .navlink:hover {
@@ -58,11 +59,12 @@ a:hover, a:visited, a:link, a:active {
 
 .navicon {
   display: inline-block;
-  width: 70px;
+  width: 32px;
+  margin-left:19px;
+  margin-right:19px;
 }
 
 .navtext {
-  padding-top: 9px;
   padding-left: 1px;
   font-family: Informa Pro, sans-serif;
   font-weight: 500;
@@ -84,8 +86,9 @@ a:hover, a:visited, a:link, a:active {
   }
   
   .navicon {
-    width: 50px;
-    height: 36px;
+    width: 24px;
+    margin-left: 13px;
+    margin-right: 13px;
   }
   
   .home-link {
