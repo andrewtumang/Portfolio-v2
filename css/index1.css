@@ -1,0 +1,192 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+  height: 100%;
+  width: 100%;
+  
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.bg1 {
+  position: absolute;
+  top: -500px;
+  left: -400px;
+  z-index: -1;
+    
+  height: 1200px;
+  width: 1200px;
+  border-radius: 0px 0px 100px 0px;
+  background-image: linear-gradient(#000 40%, #26373D);
+  
+  transform: rotate(-20deg);
+}
+
+.bg2 {
+  position: absolute;
+  top: -100px;
+  left: 1150px;
+  z-index: -1;
+    
+  height: 1200px;
+  width: 1200px;
+  border-radius: 100px 0px 0px 0px;
+  background-image: linear-gradient(to bottom right, #7CDCFF, #FFF 50%);
+  
+  transform: rotate(-20deg);
+}
+
+.jumbotron-text {
+  position: absolute;
+  top: 200px;
+  left: 220px;
+  
+  transform: rotate(-20deg);
+}
+
+h1 {
+  font-family: Imforma Pro, sans-serif;
+  font-weight: 700;
+  font-size: 50;
+  color: white;
+}
+
+h {
+  font-family: Informa Pro, sans-serif;
+  font-weight: 700;
+  font-size: 65;
+  color: white;
+}
+
+.name {
+  color: #7CDCFF;
+}
+
+p {
+  font-family: Informa Pro, sans-serif;
+  font-weight: 400;
+  font-size: 33;
+  color: white;
+}
+
+.button {
+  display: inline-block;
+  
+  height: 70px;
+  width: 230px;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-right: 20px;
+
+  font-family: Informa Pro, sans-serif;
+  font-weight: 500;
+  font-size: 30;
+  text-align: center;
+  line-height: 70px;
+}
+
+.view-work {
+  background-color: #7CDCFF;
+  color: black;
+  transition: all 0.5s;
+}
+
+.view-work:hover {
+  background-color: #5AC3E9;
+  transform: scale(1.03);
+}
+
+.view-resume {
+  color: white;
+  border: solid 2px white;
+  transition: all 0.5s;
+}
+
+.view-resume:hover {
+  color: #D0D0D0;
+  border: solid 2px #D0D0D0;
+  transform: scale(1.03);
+}
+
+.navbar {
+  position: fixed;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  width: 70px;
+  
+  background-color: #292929;
+  outline: solid 5px #7CDCFF;
+  padding: 0px;
+  padding-top:  10px;
+  
+  overflow: hidden;
+}
+
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+  width: 100%;
+}
+
+.home {
+  width: 70px;
+  text-align: center;
+}
+
+.home-link {
+  position: relative;
+  left: 0;
+  
+  font-family: Laca, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color: white;
+}
+
+.navlink {
+  display: flex;
+  flex-direction: row;
+  opacity: 0.5;
+}
+
+.navlink:hover {
+  opacity: 0.8;
+}
+
+.navicon {
+  display: inline-block;
+  width: 70px;
+}
+
+.navtext {
+  padding-top: 9px;
+  padding-left: 1px;
+  font-family: Informa Pro, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.foot-icon {
+  width: 60px;
+  margin: 10px;
+}
