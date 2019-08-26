@@ -166,13 +166,13 @@ p {
 
 @media screen and (max-width: 500px) {
   .bg1 {
-    top: -250px;
+    top: -180px;
     left: -100px;
     height: 600px;
     width: 600px;
   }
   .bg2 {
-    top: 420px;
+    top: 450px;
     left: 0px;
     height: 600px;
     width: 600px;
@@ -194,12 +194,12 @@ p {
     font-size: 4.5vw;
   }
   .button {
-    display: block;
     font-size: 5vw;
-    width: 35vw;
-    height: 9vw;
-    line-height: 9vw;
+    width: 37vw;
+    height: 12vw;
+    line-height: 12vw;
     margin-top: 10px;
+    margin-right: 5px;
     transition: all 0s;
   }
   .foot-icon {
