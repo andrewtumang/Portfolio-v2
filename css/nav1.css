@@ -75,6 +75,7 @@ a:hover, a:visited, a:link, a:active {
 @media screen and (max-width: 600px) {
   .navbar {
     width: 50px;
+  transition: width 0s;
   }
   
   .navbar:hover {
