@@ -74,6 +74,10 @@ a:hover, a:visited, a:link, a:active {
     width: 50px;
   }
   
+  .navicon {
+    height: 36px;
+  }
+  
   .home-link {
     font-size: 25px;
   }
