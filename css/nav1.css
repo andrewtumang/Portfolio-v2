@@ -1,0 +1,70 @@
+
+.navbar {
+  position: fixed;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  width: 70px;
+  
+  background-color: #292929;
+  outline: solid 5px #7CDCFF;
+  padding: 0px;
+  padding-top:  10px;
+  
+  overflow: hidden;
+  transition: width 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.2s;
+}
+
+.navbar:hover {
+  width: 160px;
+}
+
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+  width: 100%;
+}
+
+.home {
+  width: 70px;
+  text-align: center;
+}
+
+.home-link {
+  position: relative;
+  left: 0;
+  
+  font-family: Laca, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color: white;
+}
+
+.navlink {
+  display: flex;
+  flex-direction: row;
+  opacity: 0.5;
+}
+
+.navlink:hover {
+  opacity: 0.8;
+}
+
+.navicon {
+  display: inline-block;
+  width: 70px;
+}
+
+.navtext {
+  padding-top: 9px;
+  padding-left: 1px;
+  font-family: Informa Pro, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF
+}
