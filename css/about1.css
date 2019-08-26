@@ -45,10 +45,10 @@ body {
   left: 90%;
   z-index: -1;
     
-  height: 1000px;
+  height: 500px;
   width: 600px;
   border-radius: 100px 0px 0px 0px;
-  background-image: linear-gradient(to bottom, #7CDCFF, #FFF 50%);
+  background-image: linear-gradient(to bottom, #7CDCFF, #FFF);
   
   transform: rotate(10deg);
 }
@@ -149,12 +149,13 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+
   .bg1 {
     top: -400px;
   }
   
   .bg2 {
-    left: 70%;
+    left: 80%;
   }
 
   .foot-icon {

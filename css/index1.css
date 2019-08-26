@@ -167,16 +167,19 @@ p {
 
 @media screen and (max-width: 500px) {
   .bg1 {
-    top: -210px;
-    left: -100px;
+    top: -260px;
+    left: -55vw;
     height: 600px;
     width: 800px;
+    background-image: linear-gradient(#000 20%, #26373D);
+    transform: rotate(20deg);
   }
   .bg2 {
-    top: 450px;
-    left: 0px;
+    top: 520px;
+    left: -100px;
     height: 600px;
     width: 600px;
+    transform: rotate(20deg);
   }
   .jumbotron-text {
     top: 100px;
