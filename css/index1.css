@@ -181,23 +181,24 @@ p {
     top: 100px;
     left: 70px;
     width: 100%;
+    margin: 0 auto;
     transform: rotate(0deg);
   }
   h1 {
-    font-size: 21;
+    font-size: 6vw;
   }
   h {
-    font-size: 26;
+    font-size: 8vw;
   }
   p {
-    font-size: 16;
+    font-size: 4.5vw;
   }
   .button {
     display: block;
-    font-size: 16;
-    width: 140px;
-    height: 35px;
-    line-height: 35px;
+    font-size: 5vw;
+    width: 35vw;
+    height: 8vw;
+    line-height: 8vw;
     margin-top: 10px;
     transition: all 0s;
   }

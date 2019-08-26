@@ -75,6 +75,10 @@ a:hover, a:visited, a:link, a:active {
     width: 50px;
   }
   
+  .navbar:hover {
+    width: 50px;
+  }
+  
   .home {
     width: 50px;
   }
@@ -86,5 +90,10 @@ a:hover, a:visited, a:link, a:active {
   
   .home-link {
     font-size: 25px;
+  }
+  
+  .navtext {
+    padding-top: 7px;
+    font-size: 16;
   }
 }
