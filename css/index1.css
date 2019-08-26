@@ -199,6 +199,7 @@ p {
     height: 35px;
     line-height: 35px;
     margin-top: 10px;
+    transition: all 0s;
   }
   .foot-icon {
     width: 40px;
