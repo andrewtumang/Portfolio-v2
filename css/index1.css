@@ -1,9 +1,13 @@
 html {
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 body {
+  position: relative;
   margin: 0;
   padding: 0;
   
@@ -149,10 +153,55 @@ p {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .bg2 {
-    top: 600px;
-    left: 400px;
+
+@media screen and (max-width: 700px) {
+  .bg1 {
+    left: -730px;
+  }
+  .jumbotron-text {
+    left: 20px;
+    transform: rotate(-20deg) scale(0.7);
   }
 }
 
+@media screen and (max-width: 500px) {
+  .bg1 {
+    top: -250px;
+    left: -100px;
+    height: 600px;
+    width: 600px;
+  }
+  .bg2 {
+    top: 420px;
+    left: 0px;
+    height: 600px;
+    width: 600px;
+  }
+  .jumbotron-text {
+    top: 100px;
+    left: 70px;
+    width: 100%;
+    transform: rotate(0deg);
+  }
+  h1 {
+    font-size: 21;
+  }
+  h {
+    font-size: 26;
+  }
+  p {
+    font-size: 16;
+  }
+  .button {
+    display: block;
+    font-size: 16;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 10px;
+  }
+  .foot-icon {
+    width: 40px;
+    margin: 5px;
+  }
+}

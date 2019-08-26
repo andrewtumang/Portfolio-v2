@@ -68,3 +68,13 @@ a:hover, a:visited, a:link, a:active {
   font-size: 20px;
   color: #FFFFFF
 }
+
+@media screen and (max-width: 600px) {
+  .navbar, .home, .navicon {
+    width: 50px;
+  }
+  
+  .home-link {
+    font-size: 25px;
+  }
+}
