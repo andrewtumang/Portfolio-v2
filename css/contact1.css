@@ -147,6 +147,8 @@ button:hover {
     margin-top: 10px;
   }
   
+  
+  
   .bg1 {
     transform: translateX(50px);
   }
@@ -172,6 +174,13 @@ button:hover {
   
   label {
     margin-top: 10px;
+  }
+  
+  button {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20;
   }
   
   .bg1 {
