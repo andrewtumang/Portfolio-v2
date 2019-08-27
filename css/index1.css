@@ -110,16 +110,28 @@ p {
   transform: scale(1.03);
 }
 
+.view-work:active {
+  background-color: #34A7D1;
+  transform: scale(0.98);
+}
+
 .view-resume {
   color: white;
   border: solid 2px white;
   transition: all 0.5s;
+  transform: translateY(2px)
 }
 
 .view-resume:hover {
   color: #D0D0D0;
   border: solid 2px #D0D0D0;
-  transform: scale(1.03);
+  transform: translateY(2px) scale(1.03);
+}
+
+.view-resume:active {
+  color: #999;
+  border: solid 2px #999;
+  transform: translateY(2px) scale(0.98);
 }
 
 .footer {
@@ -209,5 +221,6 @@ p {
   .foot-icon {
     width: 40px;
     margin: 5px;
+    transition: all 0s;
   }
 }
