@@ -8,6 +8,7 @@
 
 .content {
   padding-left: 70px;
+  margin-bottom: 100px;
 }
 
 .banner {
@@ -78,6 +79,11 @@ p {
   margin: 0 auto;
   border: solid 1px #000
 }
+
+#final {
+  margin-bottom: 150px;
+}
+
 
 @media only screen and (max-width: 600px) {
   .content {

@@ -30,6 +30,10 @@
   height: 2000px;
 }
 
+#final {
+  margin-bottom: 150px;
+}
+
 /* TEXT */
 h {
   font-family: Informa Pro, sans-serif;
