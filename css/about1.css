@@ -42,7 +42,7 @@ body {
 .bg2 {
   position: absolute;
   top: 200px;
-  left: 90%;
+  left: 93%;
   z-index: -1;
     
   height: 500px;
@@ -79,6 +79,7 @@ body {
 
 .portrait {
   position: relative;
+  
 }
 
 .me {
