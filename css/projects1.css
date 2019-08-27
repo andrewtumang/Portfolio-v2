@@ -62,6 +62,10 @@ body {
   cursor: pointer;
 }
 
+#whatdo {
+  filter: blur(1.5px) saturate(0);
+}
+
 @media screen and (max-width: 1200px) {
   .links {
     width: 80%;
