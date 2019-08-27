@@ -9,7 +9,7 @@
   height: 100%;
   width: 70px;
   
-  background-color: #292929;
+  background-color: #111;
   outline: solid 5px #7CDCFF;
   padding: 0px;
   padding-top:  10px;
@@ -49,13 +49,13 @@ a:hover, a:visited, a:link, a:active {
 .navlink {
   display: flex;
   flex-direction: row;
-  opacity: 0.5;
+  opacity: 0.75;
   margin-bottom: 10px;
   height: 40px;
 }
 
 .navlink:hover {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .navicon {
